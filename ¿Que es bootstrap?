@@ -1,0 +1,73 @@
+En un framwork css para diseñar sitios web responsivos
+
+framework: es una estructura o base que puede utilizarse para desarrolar un sitio web
+responsivo: se adapata a distintos depositivos de distinto tamaños
+
+Posee clases con estilos predeterminados
+
+PILARES DE BOOTSTRAP
+1. GRID define como se estructura los elementos y como se adaptan al dispositivo. Conjunto de contenedores, filas y columnas que definen como se presenta y alinea el contenido.
+  * Un contenedor contiene filas y cada fila contiene 12 columanas
+  Clases para la grid : 
+  .row 
+  .col- 
+  .col-xs- <576px
+  .col-sm- >=576px
+  .col-md- >=768px
+  .col-lg- >=992px
+  .col-xl- >=1200px
+  .col-xxl- >=1400px
+
+Breakpoint
+Es el ancho a partir del cual puede cambiar el estilo o la estructura de la pagina web
+
+.container: crea un contenedor responsivo con un ancho maximo fijo que dependen del tamaño del dispositivos.
+.container-fluid crea un contenedor responsivo que cubre el 100% del ancho de la ventana
+
+2. Componentes, elementos html reutilizables con estilo predeterminado(carrusel) para usarlo en la nuestra web.
+   Podemos personalizar el estilo de los componentes de bootstrap
+  https://getbootstrap.com/docs/5.3/components/accordion/
+
+3. Iconos, de redes sociales, bootstrap icons.
+https://icons.getbootstrap.com/
+
+FLEXBOX
+Permite que los elemento responsivos dentro de un contenedor se distribuyan automaticamente en base al tamaño del dispositivo-
+Bootstrpa incluye clases para trabajar con flexbox facilmente.
+
+Propiedad flex-direcion
+Establece el eje principal del contenedor, la direccion en la cual se van a colocar los elementos del contenedor
+Valores que puede tener row, row-reverse, column, colum-revese
+
+Propiedad justify-content
+Define como se distribuye los elementos en el EJE PRINCIPAL
+flex-end, flex-start, center,  space-betwenn, space-around, space-evenly
+      En bootstrap
+      .justify-content-end
+      .justify-content-start
+      .justify-content-center
+      .justify-content-betwenn
+      .justify-content-around
+      .justify-content-evenly
+
+Propiedad align-itemns(eje perpendicular)
+Define como se distribuyen los elementos en el EJE PERPENDICULAR al eje principal.
+flex-end, flex-start, center,  baseline, stretch(estirar)
+      En bootstrap
+      .align-itemns-end
+      .align-itemns-start
+      .align-itemns-center
+      .align-itemns-baseline
+      .align-itemns-stretch(estirar)
+
+Propiedad flex-wrap
+Determina si los elementos deben ser ajustados para que siempre esten en una misma linea o si se le permite distribuirse en varias lineas si es necesario.
+valores:
+no-wrap: no se redistribuyen, en un dispositivo pequeño se ajustan todos los elementos y se mantienen em la misma linea
+wrap: se restribuye en varias lineas
+wrap-reverse.
+        En bootstrap
+        .flex-no-wrap
+        .flex-wrap
+        .flex-wrap-reverse
+
