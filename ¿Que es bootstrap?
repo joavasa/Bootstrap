@@ -71,3 +71,5 @@ wrap-reverse.
         .flex-wrap
         .flex-wrap-reverse
 
+Otras clases de bootstrap:
+img-fluid (la iamgen se adpata es responsiva al ancho de la pantalla)
